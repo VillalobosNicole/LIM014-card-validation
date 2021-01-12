@@ -2,13 +2,49 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>Validación de tarjeta de crédito</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <!-- Contenido de la app Credit Card Validation -->
+    <header>
+      <h1>VERIFICA LA VALIDEZ DE TU TARJETA</h1>
+    </header>
+    <main>
+      <div>
+      <article class="" id="creditCard">
+      </article>
+
+      <article>
+        <form action="">
+         <p>Ingresa número de la tarjeta de crédito</p>
+         <input type="search" maxlength="16" placeholder="Ingresa número de tarjeta">
+        </form>
+      </article>
+
+      <article>
+         <p>Nombre de titular</p>
+         <input type="text" placeholder="Ingresa nombre del titular">
+      </article>
+
+      <article>
+         <p>Fecha de vencimiento</p>
+         <input type="date" >
+      </article>
+
+        <button type="button">VALIDA</button>
+      </div>
+      
+      
+      <article>
+         <p>Tarjeta válida</p>
+         <p>Tarjeta inválida</p>
+        <button type="reset">VERIFICA NUEVAMENTE</button>
+      </article>
+
+    </main>
+    <footer>Credit Card Validation</footer>
     <script src="index.js" type="module"></script>
+    <script src="validator.js" type="module"></script>
   </body>
 </html>
