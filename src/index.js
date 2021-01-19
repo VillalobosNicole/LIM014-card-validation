@@ -41,8 +41,6 @@ document.getElementById("cardNumber").addEventListener('keyup', (e) => {
 
  .trimEnd();//elimina el último espaciado
 
- const hideDigits = validator.maskify("creditCardNumber");
-
  showNumberInCard.textContent = valueCard;
 
  if(valueCard === ''){
