@@ -3,49 +3,49 @@ const validator = {
      isValid : (creditCardNumber) => {
         const creditCard = creditCardNumber.split('').reverse(); //hacemos un array y lo revertimos
         // eslint-disable-next-line no-console
-        console.log('Reversa : ', creditCard);
-        let suma_pares = 0;
-        let suma_impares =0;
+       // console.log('Reverse : ', creditCard);
+        let sumPairs = 0;
+        let sumImpairs =0;
        /*  let p = [];
         let im = []; */
         let count = 0;
         for(let i= 0; i<(creditCard.length); i++){
-            let numero = parseInt(creditCard[i]);
+            let number = parseInt(creditCard[i]);
             count ++;
             if(count == 2){
-                let multiplicar = numero*2;
-                if(multiplicar>=10){
-                   let digito =  multiplicar + ""; //lo convierto a string para tomar sus posiciones
-                   suma_pares+= parseInt(digito[0]) + parseInt(digito[1]);
+                let multiply = number*2;
+                if(multiply>=10){
+                   let digit =  multiply + ""; //lo convierto a string para tomar sus posiciones
+                   sumPairs+= parseInt(digit[0]) + parseInt(digit[1]);
 
 
                 }else {
-                    suma_pares+= numero*2;
+                    sumPairs+= number*2;
                 }
                
                 count = 0;
-                // p.push(numero)
+                // p.push(number)
             }else {
-                suma_impares += numero;
-                // im.push(numero)
+                sumImpairs += number;
+                // im.push(number)
             }
         }
 
         // eslint-disable-next-line no-console
-        console.log('Par : ', p);
+        // console.log('Par : ', p);
         // eslint-disable-next-line no-console
-        console.log('Impar : ', im);
+        // console.log('Impar : ', im);
         // eslint-disable-next-line no-console
-        console.log(suma_pares, suma_impares);
-        let suma_total = (suma_pares + suma_impares) % 10;
+        console.log(sumPairs, sumImpairs);
+        let totalSum = (sumPairs + sumImpairs) % 10;
 
-        if(suma_total === 0){
+        if(totalSum === 0){
             return true;
         }else {
             return false;
         }
 
-       // return  ((suma_total % 10) === 0)? true : false;
+       // return  ((totalSum % 10) === 0)? true : false; operador ternario 
 
    }, 
 
