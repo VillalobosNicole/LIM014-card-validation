@@ -14,9 +14,9 @@
            <img src="images/chip.png" alt="">
          </div>
          <div class="fillData">
-           <div class= "inData" id=credNumb>
+           <div class= "inData" id="credNumb">
              <p class="data">Número de tarjeta</p>
-             <p class="number">#### #### #### ####</p>
+             <p class="number" id="hideNumb">#### #### #### ####</p>
            </div>
 
             <div class="box"> <!-- Porque tiene distinto orden dento de la tarjeta -->
@@ -31,8 +31,7 @@
                 <img src="images/mclogo.png" alt="mastercard"> --> 
             </div> 
             </div>
-          </div> 
-         </div>
+          </div>
         </section>
       </article>
     </header>
@@ -104,12 +103,13 @@
              </div>
            </div>
            <button class="btn" type="button" id="btnValidate">Realiza el pago</button>
+          </form>
           </article>
-        </form>
+        
        
            <article class="secondView" id="secondPage">
-            <p class="answer">Tarjeta válida</p>
-            <p class="answer">Tarjeta inválida</p>
+            <p class="answer"  id="answer">Tarjeta válida</p>
+            <!-- <p class="answer">Tarjeta inválida</p> -->
            <button class="btnReload" id="reload">Intenta nuevamente</button>
          </article>
    

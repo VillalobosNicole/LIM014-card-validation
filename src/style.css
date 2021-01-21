@@ -39,6 +39,7 @@ body {
     float: right;
     margin-left: 380px;
     margin-top: 80px;
+    text-transform: uppercase;
 }
 
 .chip {
@@ -112,6 +113,7 @@ input, select, button {
     transition: .3s ease all;
     margin-bottom: -80px;
     margin-left: 60px ;
+    
 } 
 
 .number{
