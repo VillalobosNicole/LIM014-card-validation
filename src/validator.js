@@ -2,7 +2,6 @@
 const validator = {
      isValid : (creditCardNumber) => {
         const creditCard = creditCardNumber.split('').reverse(); //hacemos un array y lo revertimos
-        // eslint-disable-next-line no-console
        // console.log('Reverse : ', creditCard);
         let sumPairs = 0;
         let sumImpairs =0;
@@ -31,12 +30,9 @@ const validator = {
             }
         }
 
-        // eslint-disable-next-line no-console
         // console.log('Par : ', p);
-        // eslint-disable-next-line no-console
         // console.log('Impar : ', im);
-        // eslint-disable-next-line no-console
-        console.log(sumPairs, sumImpairs);
+        //console.log(sumPairs, sumImpairs);
         let totalSum = (sumPairs + sumImpairs) % 10;
 
         if(totalSum === 0){
@@ -56,7 +52,7 @@ const validator = {
          cardDigits[i]="#"; //reemp con *
           }
           //retornamos el string uniendo los últimso 4 elementos
-          return cardDigits.join('')
+          return cardDigits.join('').replace(/([#0-9]{4})/g,"$1 ").trimEnd()
     }
 }
   export default validator; 
