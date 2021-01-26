@@ -5,7 +5,7 @@
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [2.1 Prototipo de baja fidelidad](#2.1-prototipo-de-baja-fidelidad)
-* [2.2 Prototipo de alta fidelidad(Diseño final)](#2.1-prototipo-de-alta-fidelidad-diseño-final)
+* [2.2 Prototipo de alta fidelidad(Diseño final)](#2.2-prototipo-de-alta-fidelidad-diseño-final)
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
@@ -39,6 +39,7 @@ oculta los dígitos exceptuando los últimos cuatro.
 ### 2.1 Prototipo de baja fidelidad 
 ![prototipopapel1](https://user-images.githubusercontent.com/55217648/105816870-d5a9e300-5f82-11eb-8a1f-44d00d940029.jpeg)
 ![prototipopapel2](https://user-images.githubusercontent.com/55217648/105816872-d6427980-5f82-11eb-9b18-62b4af2156d3.jpeg)
+
 
 ### 2.2 Prototipo de alta fidelidad(Diseño final)
 ![prototipoaltafidelidad](https://user-images.githubusercontent.com/55217648/105817308-6da7cc80-5f83-11eb-9cd8-cf9fe3c2c279.png)

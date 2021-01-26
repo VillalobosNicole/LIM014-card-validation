@@ -16,11 +16,7 @@
  // eslint-disable-next-line no-unused-vars
  document.getElementById("btnValidate").addEventListener('click', function(){
   
-    
- 
-      
-
-      if(dataNumber.length != 16 || document.getElementById("ownerName").value == "" || document.getElementById("month").value == "-" || document.getElementById("year").value == "-"  ){
+     if(dataNumber.length != 16 || document.getElementById("ownerName").value == "" || document.getElementById("month").value == "-" || document.getElementById("year").value == "-"  ){
         // eslint-disable-next-line no-undef
         Swal.fire({
             icon: 'error',
@@ -56,7 +52,7 @@
  const reload = document.getElementById('reload');
  reload.addEventListener('click', function(){ 
      location.reload();
- });
+ }); // botón de retorno
   
 
  
@@ -66,7 +62,7 @@
     //console.log(e , dataNumber);
      if(dataNumber.length == 16 && e.key != "Backspace" ){
 
-        document.getElementById("cardNumber").value = validator.maskify(dataNumber);
+        document.getElementById("cardNumber").value = validator.maskify(dataNumber); // input 
         
     }else {
 
