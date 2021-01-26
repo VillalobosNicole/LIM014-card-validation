@@ -46,7 +46,7 @@ oculta los dígitos exceptuando los últimos cuatro.
 ![prototipoaltafidelidad](https://user-images.githubusercontent.com/55217648/105817308-6da7cc80-5f83-11eb-9cd8-cf9fe3c2c279.png)
 
 ### 2.2 Link Card Validation App(Proyecto)
-![Link proyecto](https://villalobosnicole.github.io/LIM014-card-validation/)
+* [ ] [Link del proyecto.](https://villalobosnicole.github.io/LIM014-card-validation)
 
 ## 3. Objetivos de aprendizaje
 
