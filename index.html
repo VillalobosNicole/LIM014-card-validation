@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Contenido de la tarjeta -->
+      <article class="principal">
+       <section class="card" id="card">
+         <div class="chip">
+           <img src="images/chip.png" alt="">
+         </div>
+         <div class="fillData">
+           <div class= "inData" id="credNumb">
+             <p class="data">Número de tarjeta</p>
+             <p class="number" id="hideNumb">#### #### #### ####</p>
+           </div>
+
+            <div class="box"> <!-- Porque tiene distinto orden dento de la tarjeta -->
+            <div class="inData" id="name">
+              <p class="data">Nombre del titular</p>
+              <p class="titularName" >Lorem Ipsum</p> 
+            </div>
+            <div class="inData" id="expiration">
+              <p class="data">expira</p>
+              <p class="expire"><span class="monthCard">00</span> / <span class="yearCard">00</span></p>
+              <!-- <div class="logo">
+                <img src="images/mclogo.png" alt="mastercard"> --> 
+            </div> 
+            </div>
+          </div>
+        </section>
+      </article>
+    </header>
+
+         <!-- Contenido de la validación -->
+    <main>
+         <article class="firstView" id="firstPage">
+         <form action="" class="dataContainer" id="dataContainer">
+           <div class="info">
+             <p class="showData">Número de la tarjeta</p>
+             <input type="text" id="cardNumber" placeholder="Ingresa número de la tarjeta" maxlength="16" autocomplete="off">
+             <i class="far fa-credit-card"></i>
+           </div>
+           <div class="info">
+            <p class="showData">Nombre que figura en la tarjeta</p>
+            <input type="text" id="ownerName" placeholder="Ingresa nombre del titular" maxlength="24" autocomplete="off">
+            <i class="fas fa-user"></i>
+           </div>
+          
+            <!-- Box de mes y año  -->
+           <div class="dates">
+             <div class="info expiring">
+             <p class="showData">Fecha de vencimiento</p>
+             <div class="dates">
+               <div class="info-dates">
+               <select name="monthOfYear" class="info expiring" id="month">
+                 <option disabled selected value= "-">Mes</option>
+                 <option value="1">1</option>
+                 <option value="2">2</option>
+                 <option value="3">3</option>
+                 <option value="4">4</option>
+                 <option value="5">5</option>
+                 <option value="6">6</option>
+                 <option value="7">7</option>
+                 <option value="8">8</option>
+                 <option value="9">9</option>
+                 <option value="10">10</option>
+                 <option value="11">11</option>
+                 <option value="12">12</option>
+               </select>
+             </div>
+
+             <div class="info-dates">
+              <select name="years" id="year">
+                <option disabled selected value="-">Año</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+                <option value="32">32</option>
+                <option value="33">33</option>
+                <option value="34">34</option>
+                <option value="35">35</option>
+                <option value="36">36</option>
+                <option value="37">37</option>
+                <option value="38">38</option>
+                <option value="39">39</option>
+                <option value="40">40</option>
+              </select>
+            </div>
+            </div>
+             </div>
+           </div>
+           <button class="btn" type="button" id="btnValidate">Realiza el pago</button>
+          </form>
+          </article>
+        
+       
+           <article class="secondView" id="secondPage">
+            <p class="answer"  id="answer">Tarjeta válida</p>
+            <!-- <p class="answer">Tarjeta inválida</p> -->
+           <button class="btnReload" id="reload">Intenta nuevamente</button>
+         </article>
+   
+         
+    </main>
+    <footer id="footerProject">Card Validation App</footer>
+    <script src="index.js" type="module"></script> 
+    <!-- <script src="validator.js" type="module"></script>  -->
+    <script src="https://kit.fontawesome.com/b2d0f97688.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  </body>
+</html>
