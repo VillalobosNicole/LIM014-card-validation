@@ -3,11 +3,11 @@ const validator = {
      isValid : (creditCardNumber) => {
         const creditCard = creditCardNumber.split('').reverse(); //hacemos un array y lo revertimos
        // console.log('Reverse : ', creditCard);
-        let sumPairs = 0;
-        let sumImpairs =0;
+        let sumPairs = 0; //summa de pares
+        let sumImpairs =0; //suma de impares
        /*  let p = [];
         let im = []; */
-        let count = 0;
+        let count = 0; // el contador inicializa en 0
         for(let i= 0; i<(creditCard.length); i++){
             let number = parseInt(creditCard[i]);
             count ++;
@@ -22,7 +22,7 @@ const validator = {
                     sumPairs+= number*2;
                 }
                
-                count = 0;
+                 count = 0;
                 // p.push(number)
             }else {
                 sumImpairs += number;
@@ -52,7 +52,7 @@ const validator = {
          cardDigits[i]="#"; //reemp con *
           }
           //retornamos el string uniendo los últimso 4 elementos
-          return cardDigits.join('').replace(/([#0-9]{4})/g,"$1 ").trimEnd()
+          return cardDigits.join('')  //.replace(/([#0-9]{4})/g,"$1 ").trimEnd()
     }
 }
   export default validator; 

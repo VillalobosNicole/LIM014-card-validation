@@ -21,10 +21,11 @@
       
 
       if(dataNumber.length != 16 || document.getElementById("ownerName").value == "" || document.getElementById("month").value == "-" || document.getElementById("year").value == "-"  ){
+        // eslint-disable-next-line no-undef
         Swal.fire({
             icon: 'error',
-            title: 'Oops...',
-            text: 'Ingrese su tarjeta '
+            title: 'Ups...',
+            text: 'Ingrese todos los datos solicitados '
           })
 
           
@@ -56,45 +57,9 @@
  reload.addEventListener('click', function(){ 
      location.reload();
  });
+  
+
  
- 
- 
-/* document.getElementById("cardNumber").addEventListener('keyup', (e) => {
- 
-    console.log(e);
-   if(dataNumber.length == 16 && e.key != 'Backspace'){
-    document.getElementById("cardNumber").value = validator.maskify(dataNumber);
-    return;
-   }
-
-
-
-   //Tracking de los teclados
-    if(!Number.isNaN(Number(e.key))){
-       // todos Los Numeros 
-       dataNumber += e.key;
-    }else if(e.key == 'Backspace'){ //Boton Eliminar
-      dataNumber = dataNumber.substr(0, dataNumber.length -1);
-    }
-
-    //Mostrar
-    console.log('Data Actual', dataNumber);
-
-    ///Input
-    document.getElementById("cardNumber").value = validator.maskify(dataNumber);
-    //Card
-    showNumberInCard.textContent = validator.maskify(dataNumber);
-
-    if(dataNumber === ''){
-        //      alert("Ingresa número de tarjeta");
-         showNumberInCard.textContent = " #### #### #### #### ";
-    }
-
-}); */
- 
-
-
-
   /* forma de digitar tarjeta en el input*/
  document.getElementById("cardNumber").addEventListener('keyup', (e) => {
      

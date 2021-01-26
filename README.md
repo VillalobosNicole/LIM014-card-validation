@@ -4,6 +4,8 @@
 
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
+* [2.1 Prototipo de baja fidelidad](#2.1-prototipo-de-baja-fidelidad)
+* [2.2 Prototipo de alta fidelidad(Diseño final)](#2.1-prototipo-de-alta-fidelidad-diseño-final)
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
@@ -28,19 +30,23 @@ la suma de sus dígitos finales es un múltiplo de 10.
 
 ## 2. Resumen del proyecto
 
-En este proyecto tendrás que construir una aplicación web que le permita a un
-usuario validar el número de una tarjeta de crédito. Además, tendrás que
-implementar funcionalidad para ocultar todos los dígitos de una tarjeta menos
-los últimos cuatro.
+En este proyecto se ha construido una página que es la última parte de una web que permite
+realizar el pago de tu tarjeta de crédito realizando una validación. Ingresando los dígitos
+completos de la tarjeta, nombre del titular y fecha de expiración. Además de proteger 
+los datos ingresados por lxs usuarixs en el número de la tarjeta de crédito ya que 
+oculta los dígitos exceptuando los últimos cuatro.
 
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se
-necesitaría validar una tarjeta de crédito y pensar en cómo debe ser esa
-experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?)
-etc.
+### 2.1 Prototipo de baja fidelidad 
+![prototipopapel1](https://user-images.githubusercontent.com/55217648/105816870-d5a9e300-5f82-11eb-8a1f-44d00d940029.jpeg)
+![prototipopapel2](https://user-images.githubusercontent.com/55217648/105816872-d6427980-5f82-11eb-9b18-62b4af2156d3.jpeg)
+
+### 2.2 Prototipo de alta fidelidad(Diseño final)
+![prototipoaltafidelidad](https://user-images.githubusercontent.com/55217648/105817308-6da7cc80-5f83-11eb-9cd8-cf9fe3c2c279.png)
+
 
 ## 3. Objetivos de aprendizaje
 
-Trabajando en parejas aprenderán a construir una aplicación web que interactuará
+Trabajando individualmente aprendemos a construir una aplicación web que interactuará
 con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
 como tecnologías.
 
