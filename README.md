@@ -46,6 +46,7 @@ oculta los dígitos exceptuando los últimos cuatro.
 * [Link hacia prototipo de alta fidelidad(Figma)](https://www.figma.com/file/lTNgVE6VVbsDgsUzwutFBG/ProyectoCreditCardFinal)
 ![prototipoaltafidelidad](https://user-images.githubusercontent.com/55217648/105817308-6da7cc80-5f83-11eb-9cd8-cf9fe3c2c279.png)
 
+
 ### 2.3 Link Card Validation App(Proyecto)
 * [Link del proyecto](https://villalobosnicole.github.io/LIM014-card-validation)
 
