@@ -6,7 +6,6 @@
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [2.1 Prototipo de baja fidelidad](#2.1-prototipo-de-baja-fidelidad)
 * [2.2 Prototipo de alta fidelidad(Diseño final)](#2.2-prototipo-de-alta-fidelidad-diseño-final)
-  [2.3 Link de Card Validation App](#2.3-Card-Validation-App)
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
@@ -43,11 +42,8 @@ oculta los dígitos exceptuando los últimos cuatro.
 
 
 ### 2.2 Prototipo de alta fidelidad(Diseño final)
-* [Link hacia prototipo de alta fidelidad(Figma)](https://www.figma.com/file/lTNgVE6VVbsDgsUzwutFBG/ProyectoCreditCardFinal)
 ![prototipoaltafidelidad](https://user-images.githubusercontent.com/55217648/105817308-6da7cc80-5f83-11eb-9cd8-cf9fe3c2c279.png)
 
-### 2.2 Link Card Validation App(Proyecto)
-* [Link del proyecto](https://villalobosnicole.github.io/LIM014-card-validation)
 
 ## 3. Objetivos de aprendizaje
 
