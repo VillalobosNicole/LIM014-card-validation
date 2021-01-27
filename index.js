@@ -68,12 +68,11 @@
 
    // console.log(e);
 
-    if( !Number.isNaN ( Number(e.key) ) ){
+    if( !Number.isNaN ( Number(e.key) ) ){ //volviendo a entero 
         //Adiciono
-        if ( e.key != ' '){
+        if ( e.key != ' '){ //espacio 
             dataNumber += e.key;
         }
-        
     } else if( e.key == 'Backspace') {
        dataNumber =  dataNumber.substring(0,dataNumber.length-1);
     }

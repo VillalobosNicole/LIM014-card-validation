@@ -16,8 +16,6 @@ const validator = {
                 if(multiply>=10){ //ingresa si al multiplicar el resultado es mayor igual a 10
                    let digit =  multiply + ""; //lo convierto a string para tomar sus posiciones
                    sumPairs+= parseInt(digit[0]) + parseInt(digit[1]); // parseo para que sea number
-
-
                 }else {
                     sumPairs+= number*2; //ingresa si al multiplicar es menor a 10
                 }
@@ -33,7 +31,7 @@ const validator = {
         // console.log('Par : ', p);
         // console.log('Impar : ', im);
         //console.log(sumPairs, sumImpairs);
-        let totalSum = (sumPairs + sumImpairs) % 10; // sumo todos los números y veo si son divisibles por 10
+        let totalSum = (sumPairs + sumImpairs) % 10; // sumo todos los números y veo si son sectionisibles por 10
 
         if(totalSum === 0){ 
             return true;
